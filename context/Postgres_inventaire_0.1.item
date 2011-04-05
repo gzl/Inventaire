@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="Postgres_inventaire_Database" prompt="Postgres_inventaire_Database?" promptNeeded="false" type="id_String" value="inventaire"/>
+  <contextParameter comment="" name="Postgres_inventaire_Schema" prompt="Postgres_inventaire_Schema?" promptNeeded="false" type="id_String" value="public"/>
+  <contextParameter comment="" name="Postgres_inventaire_Password" prompt="Postgres_inventaire_Password?" promptNeeded="false" type="id_Password" value="8bpan3waaar096uhdGeE6g=="/>
+  <contextParameter comment="" name="Postgres_inventaire_Login" prompt="Postgres_inventaire_Login?" promptNeeded="false" type="id_String" value="postgres"/>
+  <contextParameter comment="" name="Postgres_inventaire_Port" prompt="Postgres_inventaire_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  <contextParameter comment="" name="Postgres_inventaire_Server" prompt="Postgres_inventaire_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+</talendfile:ContextType>
