@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_1sUZIF7zEeCLRot8v1uRHg" name="Postgres_inventaire" dataPackage="_cGMkcF78EeCLRot8v1uRHg" ContextMode="true" ContextId="_1Yh6cF7zEeCLRot8v1uRHg" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/inventaire" Port="context.Postgres_inventaire_Port" Username="context.Postgres_inventaire_Login" Password="context.Postgres_inventaire_Password" ServerName="context.Postgres_inventaire_Server" DatasourceName="" FileFieldName="" SID="context.Postgres_inventaire_Database" SqlSynthax="SQL Syntax" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="context.Postgres_inventaire_Schema"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_cGMkcF78EeCLRot8v1uRHg" name="inventaire" dataManager="_1sUZIF7zEeCLRot8v1uRHg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_cGMkcV78EeCLRot8v1uRHg" name="public">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_cGMkcl78EeCLRot8v1uRHg" name="article_inventaire" id="_ZlXmcF78EeCLRot8v1uRHg" comment="les articles du rÃ©fÃ©rentiel enseigne au moment de l'inventaire + des articles ajoutÃ©s (articles inexistants  dans le rÃ©fÃ©rentiel enseigne dont la codification est connue ou inconnue)" label="article_inventaire" tableType="TABLE">
+        <taggedValue xmi:id="_cGMkc178EeCLRot8v1uRHg" tag="Comment" value="les articles du rÃ©fÃ©rentiel enseigne au moment de l'inventaire + des articles ajoutÃ©s (articles inexistants  dans le rÃ©fÃ©rentiel enseigne dont la codification est connue ou inconnue)"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGMkdF78EeCLRot8v1uRHg" name="ari_numinv" comment="attribuÃ© par le systÃ¨me" label="ari_numinv" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_cGMkdV78EeCLRot8v1uRHg" tag="Comment" value="attribuÃ© par le systÃ¨me"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGMkdl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGMkd178EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLgF78EeCLRot8v1uRHg" name="ari_codart" label="ari_codart" length="60" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNLgV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLgl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLg178EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLhF78EeCLRot8v1uRHg" name="ari_codreginti13" label="ari_codreginti13" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_cGNLhV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLhl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLh178EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLiF78EeCLRot8v1uRHg" name="ari_codreginti23" label="ari_codreginti23" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_cGNLiV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLil78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLi178EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLjF78EeCLRot8v1uRHg" name="ari_codreginti33" label="ari_codreginti33" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_cGNLjV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLjl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLj178EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLkF78EeCLRot8v1uRHg" name="ari_libart" label="ari_libart" length="300" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_cGNLkV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLkl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLk178EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLlF78EeCLRot8v1uRHg" name="ari_logctlprx" comment="identifie les articles sÃ©lectionnÃ©s pour le contrÃ´le des prix" label="ari_logctlprx" length="5" sourceType="INT2" talendType="id_Short" nullable="false">
+          <taggedValue xmi:id="_cGNLlV78EeCLRot8v1uRHg" tag="Comment" value="identifie les articles sÃ©lectionnÃ©s pour le contrÃ´le des prix"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLll78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLl178EeCLRot8v1uRHg" name="INT2" numericPrecisionRadix="10" javaDataType="5"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLmF78EeCLRot8v1uRHg" name="ari_logref" comment="indique si l'article existe dans le rÃ©fÃ©rentiel de l'enseigne ou s'il a Ã©tÃ© ajoutÃ© dans le cadre de l'inventaire" label="ari_logref" length="5" sourceType="INT2" talendType="id_Short" nullable="false">
+          <taggedValue xmi:id="_cGNLmV78EeCLRot8v1uRHg" tag="Comment" value="indique si l'article existe dans le rÃ©fÃ©rentiel de l'enseigne ou s'il a Ã©tÃ© ajoutÃ© dans le cadre de l'inventaire"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLml78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLm178EeCLRot8v1uRHg" name="INT2" numericPrecisionRadix="10" javaDataType="5"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLnF78EeCLRot8v1uRHg" name="ari_loginc" comment="indique que la codification de l'article est inconnue. ari_logref est obligatoirement = &quot;faux&quot;" label="ari_loginc" length="5" sourceType="INT2" talendType="id_Short" nullable="false">
+          <taggedValue xmi:id="_cGNLnV78EeCLRot8v1uRHg" tag="Comment" value="indique que la codification de l'article est inconnue. ari_logref est obligatoirement = &quot;faux&quot;"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLnl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLn178EeCLRot8v1uRHg" name="INT2" numericPrecisionRadix="10" javaDataType="5"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLoF78EeCLRot8v1uRHg" name="ari_datcre" label="ari_datcre" length="13" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_cGNLoV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLol78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLo178EeCLRot8v1uRHg" name="DATE" numericPrecisionRadix="10" javaDataType="91"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLpF78EeCLRot8v1uRHg" name="ari_datmaj" label="ari_datmaj" length="13" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_cGNLpV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLpl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLp178EeCLRot8v1uRHg" name="DATE" numericPrecisionRadix="10" javaDataType="91"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLqF78EeCLRot8v1uRHg" name="ari_logepu" comment="indique si l'article est Ã©purÃ© du rÃ©fÃ©rentiel enseigne" label="ari_logepu" length="5" sourceType="INT2" talendType="id_Short" nullable="false">
+          <taggedValue xmi:id="_cGNLqV78EeCLRot8v1uRHg" tag="Comment" value="indique si l'article est Ã©purÃ© du rÃ©fÃ©rentiel enseigne"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLql78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLq178EeCLRot8v1uRHg" name="INT2" numericPrecisionRadix="10" javaDataType="5"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLrF78EeCLRot8v1uRHg" name="ari_prxens" label="ari_prxens" length="12" precision="2" sourceType="FLOAT8" talendType="id_Double">
+          <taggedValue xmi:id="_cGNLrV78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLrl78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNLr178EeCLRot8v1uRHg" name="NUMERIC" numericPrecision="2" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_cGNLsF78EeCLRot8v1uRHg" name="gencod_inventaire" id="_aTROQF78EeCLRot8v1uRHg" comment="les gencod du rÃ©fÃ©rentiel enseigne au moment de l'inventaire + les gencod ajoutÃ©s (gencod inexistants dans le rÃ©fÃ©rentiel enseigne dont la codfication est connue ou inconnue)" label="gencod_inventaire" tableType="TABLE">
+        <taggedValue xmi:id="_cGNLsV78EeCLRot8v1uRHg" tag="Comment" value="les gencod du rÃ©fÃ©rentiel enseigne au moment de l'inventaire + les gencod ajoutÃ©s (gencod inexistants dans le rÃ©fÃ©rentiel enseigne dont la codfication est connue ou inconnue)"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNLsl78EeCLRot8v1uRHg" name="gei_numinv" comment="attribuÃ© par le systÃ¨me" label="gei_numinv" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNLs178EeCLRot8v1uRHg" tag="Comment" value="attribuÃ© par le systÃ¨me"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNLtF78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNykF78EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNykV78EeCLRot8v1uRHg" name="gei_codart" label="gei_codart" length="60" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNykl78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNyk178EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNylF78EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNylV78EeCLRot8v1uRHg" name="gei_codean" label="gei_codean" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNyll78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNyl178EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNymF78EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNymV78EeCLRot8v1uRHg" name="gei_logref" comment="indique si le gencod est connu pour l'enseigne ou s'il a Ã©tÃ© ajoutÃ© dans le cadre de l'inventaire" label="gei_logref" length="5" sourceType="INT2" talendType="id_Short" nullable="false">
+          <taggedValue xmi:id="_cGNyml78EeCLRot8v1uRHg" tag="Comment" value="indique si le gencod est connu pour l'enseigne ou s'il a Ã©tÃ© ajoutÃ© dans le cadre de l'inventaire"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNym178EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNynF78EeCLRot8v1uRHg" name="INT2" numericPrecisionRadix="10" javaDataType="5"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNynV78EeCLRot8v1uRHg" name="gei_datcre" label="gei_datcre" length="13" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_cGNynl78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNyn178EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNyoF78EeCLRot8v1uRHg" name="DATE" numericPrecisionRadix="10" javaDataType="91"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_cGNyoV78EeCLRot8v1uRHg" name="gencod" id="_aoqPcF78EeCLRot8v1uRHg" label="gencod" tableType="TABLE">
+        <taggedValue xmi:id="_cGNyol78EeCLRot8v1uRHg" tag="Comment"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNyo178EeCLRot8v1uRHg" name="gen_codens" label="gen_codens" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNypF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNypV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNypl78EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNyp178EeCLRot8v1uRHg" name="gen_codart" comment="Identifiant complet de l'article pour l'enseigne&#xD;&#xA;                                       Pour Burton : numÃ©ro de produit + variante + taille" label="gen_codart" length="60" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNyqF78EeCLRot8v1uRHg" tag="Comment" value="Identifiant complet de l'article pour l'enseigne&#xD;&#xA;                                       Pour Burton : numÃ©ro de produit + variante + taille"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNyqV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNyql78EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNyq178EeCLRot8v1uRHg" name="gen_codean" label="gen_codean" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNyrF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNyrV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNyrl78EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNyr178EeCLRot8v1uRHg" name="gen_datcre" label="gen_datcre" length="13" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_cGNysF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNysV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNysl78EeCLRot8v1uRHg" name="DATE" numericPrecisionRadix="10" javaDataType="91"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_cGNys178EeCLRot8v1uRHg" name="article" id="_bGYtQF78EeCLRot8v1uRHg" comment="rÃ©fÃ©rentiel articles de l'enseigne" label="article" tableType="TABLE">
+        <taggedValue xmi:id="_cGNytF78EeCLRot8v1uRHg" tag="Comment" value="rÃ©fÃ©rentiel articles de l'enseigne"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNytV78EeCLRot8v1uRHg" name="art_codens" label="art_codens" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNytl78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNyt178EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNyuF78EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNyuV78EeCLRot8v1uRHg" name="art_codart" comment="Identifiant complet de l'article pour l'enseigne&#xD;&#xA;                                        Pour Burton : numÃ©ro de produit + variante + taille" label="art_codart" length="60" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_cGNyul78EeCLRot8v1uRHg" tag="Comment" value="Identifiant complet de l'article pour l'enseigne&#xD;&#xA;                                        Pour Burton : numÃ©ro de produit + variante + taille"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGNyu178EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGNyvF78EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGNyvV78EeCLRot8v1uRHg" name="art_codreginte13" label="art_codreginte13" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_cGOZoF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZoV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZol78EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGOZo178EeCLRot8v1uRHg" name="art_codreginte23" label="art_codreginte23" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_cGOZpF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZpV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZpl78EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGOZp178EeCLRot8v1uRHg" name="art_codreginte33" label="art_codreginte33" length="10" sourceType="INT4" talendType="id_Integer">
+          <taggedValue xmi:id="_cGOZqF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZqV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZql78EeCLRot8v1uRHg" name="INT4" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGOZq178EeCLRot8v1uRHg" name="art_libart" comment="description longue de l'article&#xD;&#xA;                                        (dans gescom 240 + 50 pour la couleur)" label="art_libart" length="300" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_cGOZrF78EeCLRot8v1uRHg" tag="Comment" value="description longue de l'article&#xD;&#xA;                                        (dans gescom 240 + 50 pour la couleur)"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZrV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZrl78EeCLRot8v1uRHg" name="BPCHAR" numericPrecisionRadix="10" javaDataType="1"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGOZr178EeCLRot8v1uRHg" name="art_datcre" label="art_datcre" length="13" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_cGOZsF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZsV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZsl78EeCLRot8v1uRHg" name="DATE" numericPrecisionRadix="10" javaDataType="91"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGOZs178EeCLRot8v1uRHg" name="art_datmaj" label="art_datmaj" length="13" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_cGOZtF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZtV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZtl78EeCLRot8v1uRHg" name="DATE" numericPrecisionRadix="10" javaDataType="91"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGOZt178EeCLRot8v1uRHg" name="art_logepu" comment="Indique si l'article est Ã©purÃ© du rÃ©fÃ©rentiel enseigne" label="art_logepu" length="5" sourceType="INT2" talendType="id_Short" nullable="false">
+          <taggedValue xmi:id="_cGOZuF78EeCLRot8v1uRHg" tag="Comment" value="Indique si l'article est Ã©purÃ© du rÃ©fÃ©rentiel enseigne"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZuV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZul78EeCLRot8v1uRHg" name="INT2" numericPrecisionRadix="10" javaDataType="5"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_cGOZu178EeCLRot8v1uRHg" name="art_prxens" label="art_prxens" length="12" precision="2" sourceType="FLOAT8" talendType="id_Double">
+          <taggedValue xmi:id="_cGOZvF78EeCLRot8v1uRHg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_cGOZvV78EeCLRot8v1uRHg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_cGOZvl78EeCLRot8v1uRHg" name="NUMERIC" numericPrecision="2" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Oh3rsFyqEeCNU4NsvLIOow" name="repository.metadataGenericSchema" dataPackage="_Oh3rsVyqEeCNU4NsvLIOow"/>
+  <TalendMetadata:GenericPackage xmi:id="_Oh3rsVyqEeCNU4NsvLIOow" name="repository.metadataGenericSchema" dataManager="_Oh3rsFyqEeCNU4NsvLIOow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Oh3rslyqEeCNU4NsvLIOow" id="_-RUOUFypEeCNU4NsvLIOow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oh3rs1yqEeCNU4NsvLIOow" name="codart" label="codart" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oh3rtFyqEeCNU4NsvLIOow" name="gencod" label="gencod" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oh3rtVyqEeCNU4NsvLIOow" name="libart" label="libart" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Oh3rtlyqEeCNU4NsvLIOow" name="prix" label="prix" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
