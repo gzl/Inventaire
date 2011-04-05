@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_0XHBQVykEeC5JON2d2R86A" label="Integration_inventaire" description="" language="java" technicalLabel="INTEGRATION_INVENTAIRE" local="true" folders="_fSgUIlymEeC5JON2d2R86A _fSg7MlymEeC5JON2d2R86A _fShiQlymEeC5JON2d2R86A _fSiJUlymEeC5JON2d2R86A _fSiwYlymEeC5JON2d2R86A _fSj-glymEeC5JON2d2R86A _fSmawFymEeC5JON2d2R86A _fSmaxFymEeC5JON2d2R86A _fSqFIlymEeC5JON2d2R86A _fSz2IlymEeC5JON2d2R86A _fS0dMlymEeC5JON2d2R86A _fS1rVlymEeC5JON2d2R86A _fS2SYlymEeC5JON2d2R86A _fS25clymEeC5JON2d2R86A" author="_0XHBQlykEeC5JON2d2R86A" productVersion="Talend Open Studio-4.2.0.M2_r53829">
+  <TalendProperties:Project xmi:id="_0XHBQVykEeC5JON2d2R86A" label="Integration_inventaire" description="" language="java" technicalLabel="INTEGRATION_INVENTAIRE" local="true" folders="_fSgUIlymEeC5JON2d2R86A _fSg7MlymEeC5JON2d2R86A _fShiQlymEeC5JON2d2R86A _fSiJUlymEeC5JON2d2R86A _fSiwYlymEeC5JON2d2R86A _fSj-glymEeC5JON2d2R86A _fSmawFymEeC5JON2d2R86A _fSmaxFymEeC5JON2d2R86A _fSqFIlymEeC5JON2d2R86A _fSz2IlymEeC5JON2d2R86A _fS0dMlymEeC5JON2d2R86A _fS1rVlymEeC5JON2d2R86A _fS2SYlymEeC5JON2d2R86A _fS25clymEeC5JON2d2R86A _6HcbYl_JEeCAHp49mNdEhg" author="_0XHBQlykEeC5JON2d2R86A" productVersion="Talend Open Studio-4.2.0.M2_r53829">
     <technicalStatus xmi:id="_fSP1cFymEeC5JON2d2R86A" label="development" code="DEV"/>
     <technicalStatus xmi:id="_fSP1cVymEeC5JON2d2R86A" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_fSP1clymEeC5JON2d2R86A" label="production" code="PROD"/>
@@ -587,4 +587,7 @@
   <TalendProperties:ItemState xmi:id="_fjWzkVymEeC5JON2d2R86A"/>
   <TalendProperties:FolderItem xmi:id="_fjWzklymEeC5JON2d2R86A" property="_fjWzk1ymEeC5JON2d2R86A" state="_fjWzkVymEeC5JON2d2R86A" type="SYSTEM_FOLDER"/>
   <TalendProperties:Property xmi:id="_fjWzk1ymEeC5JON2d2R86A" id="_fjWzkFymEeC5JON2d2R86A" label="UserDefined" creationDate="2011-04-01T23:24:57.289+0200" version="0.1" item="_fjWzklymEeC5JON2d2R86A" author="_0XHBQlykEeC5JON2d2R86A"/>
+  <TalendProperties:ItemState xmi:id="_6HcbYV_JEeCAHp49mNdEhg"/>
+  <TalendProperties:FolderItem xmi:id="_6HcbYl_JEeCAHp49mNdEhg" property="_6HcbY1_JEeCAHp49mNdEhg" state="_6HcbYV_JEeCAHp49mNdEhg"/>
+  <TalendProperties:Property xmi:id="_6HcbY1_JEeCAHp49mNdEhg" id="_6HcbYF_JEeCAHp49mNdEhg" label=".git" creationDate="2011-04-05T23:16:01.430+0200" version="0.1" item="_6HcbYl_JEeCAHp49mNdEhg" author="_0XHBQlykEeC5JON2d2R86A"/>
 </xmi:XMI>
